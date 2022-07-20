@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    
+    <title>Gabriel Belfort</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  
+  <body class="body">
+    
+
+    <!-- Nav -->
+    <header>
+        <nav class="navbar navbar-light nav-top">
+            <div class="container-fluid nav-container">
+                <a class="navbar-brand" href="https://www.instagram.com/bielfort/" target="_blank">
+                    <img src="images/logo.png" style=" max-width:130px; max-height:80px">
+                </a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                </form>
+                <div style="width: 30%;">
+                    <i class="bi bi-house-door icons"></i>
+                    <i class="bi bi-inbox icons"></i>
+                    <i class="bi bi-compass icons"></i>
+                    <i class="bi bi-heart icons"></i>
+                    <img class="img-nav" src="images/perfil.png">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <section>
+        <div class="container">
+            <div class="row">
+                    <div class="col-0 col-md-2"></div>     
+                <div class="col-12 col-md-8"> 
+
+                        <!-- profile -->
+                        <div class="container">
+                            <div class="row" style="padding-top: 20px;">
+                                <div class="col-3">
+                                    <img class="img-profile" src="images/perfil.png">
+                                </div>
+                                <div class="col-7">
+                                    <div class="row" style="padding-top: 20px; padding-bottom: 10px;">
+                                        <div class="col-8 col-1g-5">
+                                            <h2 class="username">bielfort</h2>
+                                        </div>
+                                        <div class="col-4 col-1g-6"><button type="button"
+                                                class="btn btn-outline-secondary button-edit"> Editar 
+                                                perfil</button></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p class="profile-datas"><strong>3</strong> publicações</p>
+                                        </div>
+                                        <div class="col-4">    
+                                            <p class="profile-datas"><strong>10.549</strong> seguidores</strong>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="profile-datas"><strong>667</strong> seguindo</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="name">Gabriel Belfort</p>
+                                        </div>                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="profile-desc">Java Student | Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2"></div>    
+                            </div>
+                        </div>
+
+                        <!-- Stories -->
+                        <div style="padding-top: 0px;">
+                            <div class="row">
+                                <div class="col-2" ><canvas id="myCr1"></canvas></div>
+                                <div class="col-2"><canvas id="myCr2"></canvas></div>
+                                <div class="col-2"><canvas id="myCr3"></canvas></div>
+                            </div>
+                            <div style="padding-bottom: 40px;">
+                                <div class="row">
+                                    <div class="col-2 stories"> Checklist</div>
+                                    <div class="col-2 stories"> Youtube</div>
+                                    <div class="col-2 stories"> Developer</div>
+                                </div>
+                            </div>  
+                        </div>
+                        <!-- Line-->
+                            <hr size="3" width="100%" color="#EEEEEE" style="margin: 0%;">
+
+                        <!-- Nav-feed -->
+                            <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">                                  
+                                    <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home"  role="tab"
+                                         aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i>Publicações</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+                                         aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i>Marcações</a>
+                                </li>
+                            </ul>                          
+  
+                            <!-- Card-feed -->
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                               <div class="row" style="padding-bottom: 25px;">
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <div class="container">
+                                                <a href="https://www.linkedin.com/in/gabriel-belfort-817196a1/" target="_blank">
+                                                <img src="images/post1.png" class="card-img-top" alt="..."></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <div class="container">
+                                            <a href="./index1.html" target="_blank">
+                                            <img  src="images/post2.png" class="card-img-top" alt="..."></a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <div class="container">
+                                                <a href="https://www.youtube.com/channel/UC6szGnwihvuH0rEhmss4jHQ" target="_blank">
+                                            <img src="images/post3.png" class="card-img-top" alt="..."></a>
+                                            </div>
+                                        </div>
+                                    </div>                                   
+                                </div> 
+
+
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+                        </div>
+
+                </div>
+                <div class="col-0 col-md-2"></div>
+                </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+
+        var cr1 = document.getElementById('myCr1').getContext('2d');
+
+        cr1.beginPath();
+        cr1.arc(60, 100, 40, 0, 2 * Math.PI);
+        cr1.fillStyle = '#00ACC1';
+        cr1.fill();
+        cr1.linewidth = 5;
+        cr1.strokeStyle = '#dbdbdb';
+        cr1.stroke();
+
+        var cr2 = document.getElementById('myCr2').getContext('2d');
+
+        cr2.beginPath();
+        cr2.arc(60, 100, 40, 0, 2 * Math.PI);
+        cr2.fillStyle = '#f8bbd0';
+        cr2.fill();
+        cr2.linewidth = 5;
+        cr2.strokeStyle = '#dbdbdb';
+        cr2.stroke();
+
+        var cr3 = document.getElementById('myCr3').getContext('2d');
+
+        cr3.beginPath();
+        cr3.arc(60, 100, 40, 0, 2 * Math.PI);
+        cr3.fillStyle = '#E91E63';
+        cr3.fill();
+        cr3.linewidth = 5;
+        cr3.strokeStyle = '#dbdbdb';
+        cr3.stroke();
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
